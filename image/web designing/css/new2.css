@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.topber{
+    background: black;
+    width: 100%;
+    height: 40px;
+}
+.navber{
+    background: linear-gradienthsl(288, 93%, 17%);
+    width: 100%;
+    height: 120px;
+}
+.manu{
+    background: linear-gradient(yellow);
+    width: 100%;
+    height: 50px;
+}
+.menu ul li{
+    /*list-style:none;*/
+    display: inline-block;
+    text-align:center ;
+    text-transform: uppercase;
+    font-weight:bold;
+    line-height: 50px;
+    margin: 0 50px;
+}
+.menu ul li a{
+    color: black;
+    text-decoration: none;
+}
+.manu ul li :hovner{
+    background: #2c255f;
+    transform: 1s;
+}
+.menu ul li b{
+    color:#4d4090 url(../images/city_background.png);
+    transform: 1s;
+    text-transform: uppercase;
+}
+.menu ul li :hovner{
+    color: #06065c;
+    transition:1s ;
+}
+.topber{
+    background: #06065c;
+    height:100% ;
+    width: 80px;
+}
+::placeholder{
+    color: white;
+}
+.news{
+    background: #06065c;
+    width: 100%;
+    height: 50px;
+    margin-top: 20px;
+}
+.news marquee{
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+    margin: 12px 94px;
+}

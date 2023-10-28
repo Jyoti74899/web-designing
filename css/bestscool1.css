@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    background: #ff8800;
+    width: 100%;
+    height: 60px;
+}
+.banner{
+    background: url(../image/bestschool.jpg);
+    width: 100%;
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+}
+.banner h2{
+    color: white;
+    font-size: 40px;
+}
+.banner p{
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+
+}
+.banner input{
+    width: 495px;
+    height: 36px;
+    background: #000000bf;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    padding-left: 12px;
+    box-shadow: 4px 2px 9px blue;
+    color: white;
+    padding-inline: 20px;
+}
+.space{
+    padding: 30px 75px;
+}
+  .a{
+    position: relative; 
+    border: 2px solid;
+    width: 366px;
+    height: 245px;
+    float: left;
+    margin: 15px;
+}
+
+.a h3{
+    margin-left: 150px;
+    margin-top: -41px;
+    color: white;
+    font-size: 23px;
+      font-family: math;  
+
+
+}
+.other{
+    font-weight: 400;
+    border-radius: 30px;
+    font-size: 100%px;
+    padding: 9px 30px;
+    margin: 40px;
+    width: 209px;
+    height: 50px;
+    background: #f80;
+    color: white;
+    border: none;
+   
+}
+.pragraph{   
+     background-color: #f7f7f7;
+    margin-top: 93px;
+    position: relative;
+    float: left;
+    width: 100%;
+    height: 240px;
+}

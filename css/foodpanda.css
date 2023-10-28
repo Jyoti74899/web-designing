@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+nav{
+    background-color: white;
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 77px;
+}
+.menu a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: sans-serif;
+    margin: o 20px;
+}
+.banner{
+    background: url(../ayushman\ yajna.jpg);
+    width: 100%;
+    height: 550px;
+    background-position: center;
+    background-size: cover;
+}
+.banner h1{
+    color: white;
+    font-size: 40px;
+    text-transform: lowercase;
+    background: palevioletred;
+    width: 58%;
+    height:auto ;
+    position: relative;
+    top: 11px;
+    margin-bottom: auto;
+}
+*/*
+
+.c{
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    padding-top: 10px;
+    background-color: rgb(149,221,227);
+    margin: auto;
+    width: 50%;
+    position: relative;
+    top: 14%;
+    margin-top: 50px;
+}
+.d{
+    background-color: rgb(r37,82,100);
+    color: pink;
+    font-size: 25px;
+}
+.d :hover{
+    background-color: white;
+    transition: 1s;
+}
+*/
+    .banner input{
+
+        width: 600px;
+        height: 45px;
+        border: none;
+        outline: none;
+        border-radius: 9px;
+        background: black;
+        box-shadow: 3px4px 8px gray;
+        padding-left: 16px;
+        color: white;
+        font-weight: bold;
+    }
+    ::placeholder{
+        color: white;
+    }
+    .news{
+        background:#2b2b6f ;
+        width: 100;
+        height: 50px;
+        margin-top: 20px;
+        
+    }
+    .news marquee{
+        color: white;
+        font-size: 20px;
+        text-transform: uppercase;
+        margin: 12px 94px;
+    }
+    *{
+        margin-left: 121px;
+        box-sizing: border-box;
+    }

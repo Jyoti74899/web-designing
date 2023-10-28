@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background: url(https://images.unsplash.com/photo-1541963463532-d68292c34b19?auto=format&fit=crop&q=80&w=1000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8Ym9va3xlbnwwfHwwfHx8MA%3D%);
+            width: 100%;
+            height: 100px;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+
+        }
+
+        .login {
+            border: 5px solid;
+            width: 400px;
+            height: 240px;
+            margin-top: 170px;
+            background: linear-gradient(45deg, black, transparent);
+
+        }
+
+        .a {
+            background: linear-gradient(to right, #ff4d00, #f4f4ee);
+            color: white;
+            margin-bottom: 30px;
+            font-family: cursive;
+            font-size: 25px;
+        }
+
+        .login input {
+            width: 270px;
+            height: 35px;
+            border-radius: 9px;
+            background: linear-gradient(to right, hsl(0, 2%, 9%), yellow);
+            font-size: 16px;
+            font-weight: bold;
+            border: none;
+            outline: none;
+            color: white;
+        }
+
+        .login button {
+            width: 100px;
+            height: 35px;
+            border-radius: 8px;
+            background: linear-gradient(to right, hsl(0, 2%, 9%), yellow);
+            cursor: pointer;
+            color: white;
+            font-size: 18px;
+            font-family: cursive;
+            border: solid rgb(244, 239, 238);
+
+        }
+
+        button:hover {
+            background: -o-linear-gradient(to right, hsl(0, 23%, 8%), blue);
+        }
+
+        ::placeholder {
+            color: white;
+            padding-left: 10px;
+            font-family: cursive;
+        }
+    </style>
+</head>
+
+<body>
+    <center>
+        <div class="login">
+            <h2 class="a">Login Form</h2>
+            <form>
+                <input type="text" name="" placeholder="username">
+                <br><br>
+                <input type="text" name="" placeholder="username">
+                <br><br>
+                <button type="submit">login</button>
+            </form>
+        </div>
+    </center>
+
+</body>
+
+</html>

@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+nav{
+    background-color: white;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 92px;
+}
+.banner{
+    background: url(../image/a.img.jpg);
+    width: 100%;
+    height: 600px;
+    background-position: center;
+    background-size: cover;
+
+}
+.menu a{
+    color: #ff2b85;
+    font-size: 20px;
+    font-family: system-ui;
+    text-decoration: none;
+    margin: 0 20px;
+}
+
+
+.c{
+    text-align: center;
+    font-size:40px ;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:white;
+    padding-top: 10px;
+    background-color:wheat;
+    margin: auto;
+    width: 50%;
+    position: relative;
+    top: 14%;
+
+}
+.d{
+    background-color: aquamarine;
+    color: black;
+    font-size: 25px;
+
+}
+.d:hover{
+    background-color: white;
+    transition: 1s;
+}
+
+
+.banner h1{
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    padding-top: 89;
+    background: yellowgreen;
+    margin: auto;
+    width: 47%;
+    position: relative;
+    top: 100px;
+}
+.border{
+    background: #afa0a08c;
+    width: 100%;
+    height: 60px;
+    margin-top: 30px;
+}
+.border marquee{
+    font-size: 30px;
+    color: red;
+    line-height: 60px;
+
+}
+.about{
+    background: white;
+    width: 100%;
+    height: 500px;
+    text-align: center;
+    padding: 140px 200px;
+}
+.about h2{
+    font-size: 32px;
+    font-family:cursive ;
+    text-transform: uppercase;
+    color: #ff2b85;
+    margin-bottom: 10px;
+
+}
+.about button{
+    width: 183px;
+    height: 44px;
+    background: #ff2b85;
+    color: white;
+    font-size: 14px;
+    border: navajowhite;
+    margin-top: 10px;
+    border-radius: 7px;
+}
+.team{
+    background: url(../image/a.img.jpg);
+    width: 100px;
+    height: 550px;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.press{
+    background: url(../image/a.img.jpg);
+    width: 100px;
+    height: 550px;
+    background-position: center;
+    background-size: cover;
+}
+.contact{
+    background: #ff2b85;
+    width: 100px;
+    height: 500px;
+}
+.footer{
+    background: #f8f8f8;
+    width: 100%;
+    height: 400px;
+    padding: 50px 100px;
+
+}
+.ram{
+    display: flex;
+    justify-content: space-between;
+}
+.milan{
+    display: flex;
+    justify-content: space-between;
+}
